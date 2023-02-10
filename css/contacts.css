@@ -1,0 +1,31 @@
+.contacts_block_content{
+	margin-top:65px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+}
+
+.contacts_block_title{
+	color: #4f60e8;
+	font-size: 50pt;
+}
+.contacts_block_title_min{
+	color: black;
+	margin-top:30px;
+	font-size: 30pt;
+	
+}
+.contacts_block_text{
+	margin-top:30px;
+	color:black;
+	font-size: 15pt;
+	
+	
+}
+.contacts_block_email{
+	margin-top:30px;
+	font-size: 15pt;
+	text-decoration:none;
+	color: #4f60e8;
+}

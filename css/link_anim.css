@@ -1,0 +1,63 @@
+
+
+
+.link-ease-in-out {
+	text-decoration: none;
+	color: white;
+	margin: auto 0px;
+	font-size: 30px;
+    display: inline-block;
+   
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+}
+.link-ease-in-out:after {
+    background-color: #3446eb; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 4px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+
+.link-ease-in-out-underlined {
+	text-decoration: none;
+	color: white;
+	margin: auto 0px;
+	font-size: 30px;
+    display: inline-block;
+   
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+}
+.link-ease-in-out-underlined:after {
+    background-color: #3446eb; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 4px; /* Высота линии */
+    width: 100%;
+    
+}
+
+
+
+.link-ease-in-out:hover:after
+{
+    width: 100%;
+}
+
+/* стрелка */
+.arrow {
+  display: inline-block;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 7.5px 0 7.5px;
+  border-color: #007bff transparent transparent transparent;
+}
